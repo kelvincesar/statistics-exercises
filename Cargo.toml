@@ -1,0 +1,9 @@
+[package]
+name = "statistics-exercises"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+colored = "3.0.0"
+peroxide = "0.39.2"
+statrs = "0.18.0"
