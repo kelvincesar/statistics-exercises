@@ -2,6 +2,10 @@ use peroxide::fuga::*;
 use colored::Colorize;
 use statrs::distribution::{Binomial, Discrete};
 
+mod hypotheses;
+mod levenes;
+
+
 fn main() { 
     println!("Running exercises!");
     exercise_01();
@@ -9,6 +13,8 @@ fn main() {
     exercise_03();
     exercise_04();
     exercise_05();
+
+    hypotheses::exercicio_01();
 }
 
 fn exercise_01() {
